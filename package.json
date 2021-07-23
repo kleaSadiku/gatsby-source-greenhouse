@@ -7,7 +7,7 @@
     "build": "babel src --out-dir . --ignore apiTest.js",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect",
-    "install": "build"
+    "install": "npm run build"
   },
   "repository": {
     "type": "git",
